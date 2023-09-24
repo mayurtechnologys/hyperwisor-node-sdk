@@ -1,18 +1,32 @@
-# hyperwisor-node-sdk
-This Node.js SDK provides a seamless interface for interacting with Hyperwisor IOT services, enabling developers to easily integrate and manage sensor data, schemas, and API functions.
+Certainly, here's the README with the license section updated to use the Apache License, Version 2.0:
+
+```markdown
 # Hyperwisor IOT SDK
 
-A Node.js SDK for interacting with Hyperwisor IOT services.
+[![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](LICENSE)
+
+A Node.js SDK for interacting with Hyperwisor IOT services, making it easy to integrate sensor data, manage schemas, and perform various operations on the Hyperwisor IOT platform.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [License](#license)
 
 ## Installation
 
-You can install this SDK using npm:
+To get started, you can install this SDK using npm:
 
 ```bash
 npm install hyperwisor-iot
-Usage
-javascript
-Copy code
+```
+
+## Usage
+
+Here's how you can quickly get started using the Hyperwisor IOT SDK:
+
+```javascript
 const HyperwisorIOT = require('hyperwisor-iot');
 
 // Initialize the SDK
@@ -41,35 +55,43 @@ sdk.getSensordata()
 
 // Other SDK methods
 // ...
-API
-init(apiKey): Initialize the SDK with your API key.
-sendData(data): Send data to Hyperwisor IOT.
-getSensordata(): Get sensor data from Hyperwisor IOT.
-updateSchema(data): Update the schema in Hyperwisor IOT.
-getSchema(): Get the schema from Hyperwisor IOT.
-extractor(data, key): Extract data from a JSON response.
-License
-This SDK is licensed under the MIT License. See the LICENSE file for details.
+```
 
-swift
-Copy code
+For detailed usage instructions, examples, and a full list of available methods, please refer to the [API section](#api).
 
-3. **`package.json`**:
+## API
 
-```json
-{
-  "name": "hyperwisor-iot",
-  "version": "1.0.0",
-  "description": "A Node.js SDK for interacting with Hyperwisor IOT services",
-  "main": "hyperwisor-iot.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "querystring": "^0.2.0"
-  }
-}
-With these files, you have a well-documented Node.js SDK for Hyperwisor IOT that you can publish on GitHub. Replace the placeholder content with your actual code and details, and you'll be ready to create a GitHub repository for your project.
+### `init(apiKey)`
+
+Initialize the SDK with your Hyperwisor IOT API key.
+
+### `sendData(data)`
+
+Send data to Hyperwisor IOT.
+
+### `getSensordata()`
+
+Get sensor data from Hyperwisor IOT.
+
+### `updateSchema(data)`
+
+Update the schema in Hyperwisor IOT.
+
+### `getSchema()`
+
+Get the schema from Hyperwisor IOT.
+
+### `extractor(data, key)`
+
+Extract data from a JSON response.
+
+## License
+
+This SDK is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+---
+
+**Note**: This SDK is maintained by [MAYUR SUNIL CHAVAN]. For bug reports, feature requests, or contributions, please check the [Contribution Guidelines](CONTRIBUTING.md).
+```
+
+I've updated the license section to reflect the Apache License, Version 2.0, and provided a link to the official license page on the Apache Software Foundation's website.

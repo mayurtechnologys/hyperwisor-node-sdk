@@ -1,7 +1,4 @@
 
-**package.json**:
-
-```json
 {
   "name": "hyperwisor-iot",
   "version": "1.0.0",
@@ -13,6 +10,6 @@
   "author": "MAYUR SUNIL CHAVAN",
   "license": "Apache",
   "dependencies": {
-    // Add any dependencies your SDK uses
+   
   }
 }

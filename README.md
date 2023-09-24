@@ -1,6 +1,4 @@
-Certainly, here's the README with the license section updated to use the Apache License, Version 2.0:
 
-```markdown
 # Hyperwisor IOT SDK
 
 [![License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](LICENSE)
